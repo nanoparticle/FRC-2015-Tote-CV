@@ -9,3 +9,6 @@ This software runs on an Nvidia Jetson TK1 devkit that has an Axis IP camera att
 An explanation of vision targets is available here: https://docs.wpilib.org/en/latest/docs/software/vision-processing/introduction/target-info-and-retroreflection.html
 
 The vision targets used on the side of the totes are similar to those in the article. The software tracks the horizontal position of the vision target and sends it back to the RoboRIO for further processing.
+
+### Attributions:
+Special thanks go to Atul R. for developing an implementation of the C++ imshow function in Java: https://github.com/master-atul/ImShow-Java-OpenCV
